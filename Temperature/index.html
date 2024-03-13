@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #96f8d8;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 3rem;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Temperature Converter</h1>
+
+    <script>
+        //CHAPTER 5
+        //TASK6
+        document.write("<h2>TASK6</h2>")
+        var celsius = prompt("Enter temperature in Celsius:");
+        var fahrenheit = prompt("Enter temperature in fahrenheit:");
+        // var celsius = 29°C;
+        // var fahrenheit = 84°F;
+        var cnvrt = (celsius * 9 / 5) + 32;  // formula to convert from Fahrenheit to Celsius
+        var  frcnvrt = (fahrenheit-32) * 5/9;   //formula to convert from Celsius to Fahrenheit
+        document.write("<h2>Today temperature in  degree celsius is : " + celsius + "°C</h2>");
+        document.write("<h2>Today temperature in fahrenheit is : " + fahrenheit + "°F</h2>");
+        document.write("<h2>The Temperature in Fahrenheit is : " + cnvrt + "°F" + "</h2>");
+        document.write("<h2>The Temperature in degree celsius is : " + frcnvrt + "°C" + "</h2>");
+        // document.write(celsius +"°C is "+ cnvrt + "°F")
+        // document.write(Fahrenheit +"°F is "+ frcnvrt + "°C")
+
+
+
+
+    </script>
+</body>
+
+</html>

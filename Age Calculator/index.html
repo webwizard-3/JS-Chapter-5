@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #96f8d8;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 3rem;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+ 
+    <h1>Age Calculator</h1>
+
+    <script>
+        //CHAPTER 5
+        //TASK10
+        document.write("<h2>TASK 10</h2>")
+        var brthYear = prompt("Enter your birth year:");
+        var crntYear = prompt("Enter the current year");
+        var age = crntYear - brthYear;
+        var monthInYear = 12;
+        var weekInYear = 52;
+        var dayInYear = 365;
+        var hourInYear = 8760;
+        var minInYear = 525600;
+        document.write("<h2>" + "Current Year is : " + crntYear + "<br>");
+        document.write("Birth Year is : " + brthYear + "<br>");
+        document.write("Your Current age is: " + age + "<br>");
+        document.write("Months : " + monthInYear * age + "<br>");
+        document.write("Weeks : " + weekInYear * age + "<br>");
+        document.write("Days : " + dayInYear * age + "<br>");
+        document.write("Hours : " + hourInYear * age + "<br>");
+        document.write("Minutes : " + minInYear * age + "<br>");
+
+
+
+
+    </script>
+</body>
+
+</html>
